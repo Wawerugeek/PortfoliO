@@ -89,7 +89,7 @@ const MySkills = () => {
 
         {/* INNOVATIVE */}
         <motion.div
-          className='md:w-1/3 mt-10'
+          className='md:w-1/3 mt-10 '
           initial='hidden'
           whileInView='visible'
           viewport={{ once: true, amount: 0.5 }}
@@ -144,7 +144,6 @@ const MySkills = () => {
             Bibendum.
           </p>
         </motion.div>
-
       </div>
     </section>
   );
