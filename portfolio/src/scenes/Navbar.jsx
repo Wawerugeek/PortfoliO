@@ -67,7 +67,9 @@ const Navbar = ({ isTopOfPage, selectedpage, setSelectedpage }) => {
              >
             <img alt='Menu' src='../assets/menu-icon.svg' />
              </button>)}
+             
              {/* mobile menu pop-up */}
+
              {!isAboveSmallScreens && isMenuToggled && (
                 <div className='fixed right-0 bottom-0 h-full bg-blue w-[300px]'> 
                 
